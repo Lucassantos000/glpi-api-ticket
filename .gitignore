@@ -1,0 +1,7 @@
+glpi_backup
+glpi_config
+glpi_documents
+glpi_files_plugins
+glpi_marketplace
+glpi_plugins
+.env
