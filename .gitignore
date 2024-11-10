@@ -4,4 +4,7 @@ glpi_documents
 glpi_files_plugins
 glpi_marketplace
 glpi_plugins
+glpi_db_backup
+glpi_db_lib
+glpi_db_log
 .env

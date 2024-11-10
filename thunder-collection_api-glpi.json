@@ -1,0 +1,281 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "api-glpi",
+    "collectionId": "54af0696-5c3b-4dce-a084-0db1323447d9",
+    "dateExported": "2024-11-10T03:18:50.527Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e491de87-5844-4c25-8462-dfb10f256f40",
+            "colId": "54af0696-5c3b-4dce-a084-0db1323447d9",
+            "containerId": "",
+            "name": "search-itens",
+            "url": "http://localhost/apirest.php/Ticket/?expand_dropdowns=true'",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-11-03T19:49:02.783Z",
+            "modified": "2024-11-10T02:50:49.789Z",
+            "headers": [
+                {
+                    "name": "App-Token",
+                    "value": "mS1qrgat8I7CynGUuCwYyXxOiP5EW7REkoBBbHl5"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "user_token DSHgFY4TsUOlOHG2LkrWRn4uE5ZJsvAhCAJaEHdw"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                },
+                {
+                    "name": "Session-Token",
+                    "value": "rc1da4o3ime5d1cgmtv3rrhbhg"
+                }
+            ],
+            "params": [
+                {
+                    "name": "expand_dropdowns",
+                    "value": "true'",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "5012afb7-87bc-408a-a531-db9d5bbca1fc",
+            "colId": "54af0696-5c3b-4dce-a084-0db1323447d9",
+            "containerId": "",
+            "name": "criar-ticket",
+            "url": "http://localhost/apirest.php/Ticket",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-11-03T20:31:54.850Z",
+            "modified": "2024-11-10T02:44:08.780Z",
+            "headers": [
+                {
+                    "name": "App-Token",
+                    "value": "mS1qrgat8I7CynGUuCwYyXxOiP5EW7REkoBBbHl5"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "user_token DSHgFY4TsUOlOHG2LkrWRn4uE5ZJsvAhCAJaEHdw"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                },
+                {
+                    "name": "Session-Token",
+                    "value": "rc1da4o3ime5d1cgmtv3rrhbhg"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"input\":[\n   {\n       \"name\": \"teste2\",\n       \"content\": \"teste teste\",\n       \"itilcategories_id\": 2, // encontre os valores na tabela glpi_itilcategories\n       \"type\": 1,\n       \"urgency\": 3,\n       \"priority\": 3,\n       \"impact\": 2,\n       \"users_id_requester\": 2, // usuário que abre o chamado;\n        \"users_id_recipient\":2  // usuário atribuído\n\n   }\n   ]\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "1bd9ff78-00f2-4f3f-b6d7-ed44ce8c2c5b",
+            "colId": "54af0696-5c3b-4dce-a084-0db1323447d9",
+            "containerId": "",
+            "name": "request-token",
+            "url": "http://localhost/apirest.php/initSession",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-11-10T02:47:47.282Z",
+            "modified": "2024-11-10T02:47:47.282Z",
+            "headers": [
+                {
+                    "name": "App-Token",
+                    "value": "mS1qrgat8I7CynGUuCwYyXxOiP5EW7REkoBBbHl5"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "user_token DSHgFY4TsUOlOHG2LkrWRn4uE5ZJsvAhCAJaEHdw"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ]
+        },
+        {
+            "_id": "0919db0f-d9c8-43c9-9399-c95d27dcab05",
+            "colId": "54af0696-5c3b-4dce-a084-0db1323447d9",
+            "containerId": "",
+            "name": "search-itens Copy",
+            "url": "http://localhost/apirest.php/search/Ticket",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-11-10T02:50:41.311Z",
+            "modified": "2024-11-10T02:50:41.311Z",
+            "headers": [
+                {
+                    "name": "App-Token",
+                    "value": "mS1qrgat8I7CynGUuCwYyXxOiP5EW7REkoBBbHl5"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "user_token DSHgFY4TsUOlOHG2LkrWRn4uE5ZJsvAhCAJaEHdw"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                },
+                {
+                    "name": "Session-Token",
+                    "value": "rc1da4o3ime5d1cgmtv3rrhbhg"
+                }
+            ]
+        },
+        {
+            "_id": "e604c7f5-c324-4edb-b4f2-df736ac95e3f",
+            "colId": "54af0696-5c3b-4dce-a084-0db1323447d9",
+            "containerId": "",
+            "name": "searche-users",
+            "url": "http://localhost/apirest.php/User",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-11-10T03:01:21.887Z",
+            "modified": "2024-11-10T03:01:54.560Z",
+            "headers": [
+                {
+                    "name": "App-Token",
+                    "value": "mS1qrgat8I7CynGUuCwYyXxOiP5EW7REkoBBbHl5"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "user_token DSHgFY4TsUOlOHG2LkrWRn4uE5ZJsvAhCAJaEHdw"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                },
+                {
+                    "name": "Session-Token",
+                    "value": "rc1da4o3ime5d1cgmtv3rrhbhg"
+                }
+            ]
+        },
+        {
+            "_id": "228d12e7-d2da-4c7b-849e-d647639fd66f",
+            "colId": "54af0696-5c3b-4dce-a084-0db1323447d9",
+            "containerId": "",
+            "name": "criar-ticket Copy",
+            "url": "http://localhost/apirest.php/Ticket",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-11-04T04:17:52.622Z",
+            "modified": "2024-11-04T04:17:52.622Z",
+            "headers": [
+                {
+                    "name": "App-Token",
+                    "value": "bSY1vkbfSOuuGCP8UIEGrRZGswIrQHlBPYkdRMzO"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "user_token ShNrn7zJYyvuUCEG36xqu3SeXxDCTwqgPX5nlcX7"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                },
+                {
+                    "name": "Session-Token",
+                    "value": "ippu8q438eb5rr87r4k85jjhsi"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "[\n   {\n       \"name\": \"Título do Chamado\",\n       \"content\": \"Descrição detalhada do chamado\",\n       \"itilcategories_id\": 1,\n       \"type\": 1,\n       \"urgency\": 3,\n       \"priority\": 3,\n       \"impact\": 2,\n       \"users_id_requester\": 2\n   }\n]",
+                "form": []
+            }
+        },
+        {
+            "_id": "5091ce9d-5095-4132-9925-2b7cf14af5bc",
+            "colId": "54af0696-5c3b-4dce-a084-0db1323447d9",
+            "containerId": "",
+            "name": "searche-ItilsCategory",
+            "url": "http://localhost/apirest.php//ITILCategory",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-11-10T03:02:16.641Z",
+            "modified": "2024-11-10T03:02:40.862Z",
+            "headers": [
+                {
+                    "name": "App-Token",
+                    "value": "mS1qrgat8I7CynGUuCwYyXxOiP5EW7REkoBBbHl5"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "user_token DSHgFY4TsUOlOHG2LkrWRn4uE5ZJsvAhCAJaEHdw"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                },
+                {
+                    "name": "Session-Token",
+                    "value": "rc1da4o3ime5d1cgmtv3rrhbhg"
+                }
+            ]
+        },
+        {
+            "_id": "a301387f-6fcf-49ec-8898-95a12dd87e1c",
+            "colId": "54af0696-5c3b-4dce-a084-0db1323447d9",
+            "containerId": "",
+            "name": "criar-ticket backup",
+            "url": "http://localhost/apirest.php/Ticket",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-11-10T03:07:03.701Z",
+            "modified": "2024-11-10T03:10:06.275Z",
+            "headers": [
+                {
+                    "name": "App-Token",
+                    "value": "mS1qrgat8I7CynGUuCwYyXxOiP5EW7REkoBBbHl5"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "user_token DSHgFY4TsUOlOHG2LkrWRn4uE5ZJsvAhCAJaEHdw"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                },
+                {
+                    "name": "Session-Token",
+                    "value": "rc1da4o3ime5d1cgmtv3rrhbhg"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"input\":[\n   {\n       \"name\": \"teste alterar criador\",\n       \"content\": \"teste teste\",\n       \"itilcategories_id\": 1, // encontre os valores na tabela glpi_itilcategories\n       \"type\": 1,\n       \"urgency\": 3,\n       \"priority\": 3,\n       \"impact\": 2,\n       \"users_id_requester\": 7, // usuário que abre o chamado;\n        \"users_id_recipient\":7  // usuário atribuído\n\n   }\n   ]\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "6BeoRaNrb2wtwmvgn6ZwhrvZ4D4Oy0_GQioucrWBiJM5xbo00i1tD2cnPeC2bteIgOJQXK_9hSZtUYywYchrYg"
+}
